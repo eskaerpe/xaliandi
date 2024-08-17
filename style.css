@@ -1,0 +1,33 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 400
+
+.playwrite-font {
+	font-family: "Playwrite BE WAL", cursive;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+nav a span {
+	font-family: "Playwrite BE WAL", cursive;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+#menu {
+	height: auto;
+}
+
+.menu-cards {
+	overflow: auto;
+	white-space: nowrap;
+	margin: auto;
+	height: auto;
+	width: 100%;
+}
+
+.menu-cards #card-food {
+	display: inline-block;
+	white-space: wrap;
+}
