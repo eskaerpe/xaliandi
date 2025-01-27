@@ -1,53 +1,71 @@
 /* // <uniquifier>: Use a unique and descriptive class name
 // <weight>: Use a value from 100 to 400 */
 
+html {
+	scroll-behavior: smooth;
+}
+
 .playwrite-font {
-    font-family: "Playwrite BE WAL", cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+	font-family: "Playwrite BE WAL", cursive;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+}
+
+nav {
+	/* backdrop-filter: blur(50px); */
 }
 
 nav a span {
-    font-family: "Playwrite BE WAL", cursive;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+	font-family: "Playwrite BE WAL", cursive;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
 }
 
-#menu {
-    height: auto;
+#product {
+	/* height: auto; */
 }
 
 .menu-cards {
-    overflow: auto;
-    white-space: nowrap;
-    margin: auto;
-    height: auto;
-    width: 100%;
+	overflow: auto;
+	white-space: nowrap;
+	margin: auto;
+	height: auto;
+	width: 100%;
 }
 
 .menu-cards #card-food {
-    display: inline-block;
-    white-space: wrap;
+	display: inline-block;
+	white-space: wrap;
 }
 
 .menu-cards {
-    overflow: auto;
-    white-space: nowrap;
-    margin: auto;
-    height: auto;
-    width: 100%;
-    position: relative;
+	overflow: auto;
+	white-space: nowrap;
+	margin: auto;
+	height: auto;
+	width: 100%;
+	position: relative;
 }
 
 .menu-cards::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 30px;
-    height: 100%;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.1), transparent);
-    pointer-events: none;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30px;
+	height: 100%;
+	background: linear-gradient(to right, rgba(0, 0, 0, 0.1), transparent);
+	pointer-events: none;
+}
+
+footer {
+	background-image: linear-gradient(#000, #031c03);
+	box-shadow: 0 -2px 22px black;
+}
+
+/* ABOUT.HTML */
+#description .container div {
+	/* height: 400px; */
 }
